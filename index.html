@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            /* border: 3px solid red; */
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            border: 2px solid black;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            background-color: transparent;
+            background-color: black;
+            
+            
+        }
+        header ul li{
+            /* border: 2px solid red; */
+            display: inline-block;
+            /* margin: 10px ; */
+            color: white;
+            
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 800;
+            font-family: sans-serif;
+        }
+        .main_body{
+
+            border: 2ox solid green;
+            height: 70vh;
+            width: 100%;
+            
+            display: flex;
+            justify-content: space-between;
+        }
+        aside{
+            width: 30%;
+            /* border: 2px solid black; */
+            background-color: rgb(143, 178, 209);
+            padding: 10px 5px;
+        }
+        section{
+            width: 100%;
+            /* border: 2px solid red; */
+
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .box{
+            /* border: 2px solid black; */
+            height: 50%;
+            width: auto;
+            background-color: rgb(77, 94, 88);
+            color: whitesmoke;
+            
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .box1{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            
+            border: 2px solid green;
+        }
+        .bb{
+            /* color: red; */
+            border: 2px solid green;
+            width:100%;
+            text-align: center;
+
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            
+            background-color: blueviolet;
+            text-decoration: none;  
+        }
+        hr{
+            margin: 0;
+            padding: 0;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Container Start -->
+    <div class="container">
+
+
+        <header>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Gallery</li>
+                <li>Information</li>
+            </ul>
+        </header>
+
+        <!-- Section -->
+
+        <div class="main_body">
+            <aside>
+                <div>
+                 <input type="text" value="search" style="padding: 12px;margin: 4px; border-radius: 30px; ">
+                 <button style="padding: 6px 26px;margin: 4px; border-radius: 30px; " >search</button>
+
+                </div>
+                <p style="text-align: center; text-decoration: none;color: blue; font-size: 25px; "><a href="#">Link 1</a></p>
+                <p style="text-align: center; text-decoration: none;color: blue; font-size: 25px; "><a href="#">Link 2</a></p>
+                <p style="text-align: center; text-decoration: none;color: blue; font-size: 25px; "><a href="#">Link 3</a></p>
+
+                <div style="width: 80%; margin: auto; font-size: 20px; font-weight: bold;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsa.</p>
+                </div>
+               
+            </aside>
+
+
+
+            <section>
+                <div class="box box1">
+                    <div class="bb">img1</div>
+                    <div class="bb">img2</div>
+                    <div class="bb">img3</div>
+                </div>
+                <hr>
+                <div class="box box2">
+                    <p style="padding: 10px 10px; font-weight: 700;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab dolorem pariatur necessitatibus libero distinctio consequuntur saepe ullam veritatis delectus, cupiditate quibusdam maxime sed, eius voluptate praesentium repellendus nihil. A quibusdam architecto voluptatum culpa. Eius quis commodi, distinctio asperiores dicta cupiditate corporis modi magnam ad velit et praesentium quo hic ratione doloribus quisquam ut nihil voluptate atque, numquam tempore nulla quod harum officia? Quas fugiat repudiandae, voluptatum in soluta cum maiores aliquid non animi ut saepe quia quisquam? Porro architecto facere repudiandae id quis consequatur nulla, ad, aliquam ut reprehenderit ea debitis nesciunt rem aliquid at dolore, recusandae provident nihil esse?</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <ul style="list-style: none; color: white; font-size: 19px;">
+                <li>Contact</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+            </ul>
+
+           
+
+            <p style="color: white; margin-top: 30px; font-size: 20px;">Phone: <a href="#">987654321</a> </p>
+            <p style="color: blue; font-size: 20px;">E-mail <em><a href="#">abcde@gmail.com</a></em> </p>
+
+        </footer>
+
+
+
+        <!-- container ends -->
+    </div>
+
+</body>
+</html>
